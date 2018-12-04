@@ -306,9 +306,9 @@ array([[ 10, 20],
 
 NumPy 中，形状不同的数组之间也可以进行运算。之前的例子中，在2×2 的矩阵 A 和标量 10 之间进行了乘法运算。在这个过程中，如图 1-1 所示，标量 10 被扩展成了 2 × 2 的形状，然后再与矩阵 A 进行乘法运算。这个巧妙的功能称为广播(broadcast)。
 
-![image-20181204000528179](deap-learning-read-python-basic/image-20181204000528179.png)
+![](deap-learning-read-python-basic/image-20181204000528179.png)
 
-![image-20181204000707627](deap-learning-read-python-basic/image-20181204000707627.png)
+![](deap-learning-read-python-basic/image-20181204000707627.png)
 
 #### 访问元素
 
@@ -339,7 +339,7 @@ plt.show()
 
 这里使用NumPy的arange方法生成了[0, 0.1, 0.2, ..., 5.8, 5.9]的数据，将其设为 x。对 x 的各个元素，应用 NumPy 的 sin 函数 np.sin()，将 x、y 的数据传给 plt.plot 方法，然后绘制图形。最后，通过 plt.show() 显示图形。运行上述代码后，就会显示图 1-3 所示的图形：
 
-![image-20181204001039527](deap-learning-read-python-basic/image-20181204001039527.png)
+![](deap-learning-read-python-basic/image-20181204001039527.png)
 
 
 
