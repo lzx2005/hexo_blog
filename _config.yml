@@ -5,16 +5,16 @@
 # Site
 title: 鸦鸦的笔记本
 subtitle: 想学会走路，必须先学会跑步
-description: 这是我的个人博客，记录了学习工作生活中遇到的问题，思考，不仅限于技术。
+description: 本站记录了我在学习工作生活中遇到的问题和思考。
 keywords: Java,Spring,算法,大数据,云计算,前端,Vue,后端,Python,Javascript
-author: 李正先
+author: Raven
 #language: 中文
 language: zh-CN
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://lzx2005.com
+url: https://lzx2005.github.io
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
