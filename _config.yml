@@ -86,11 +86,11 @@ deploy:
   repo: https://github.com/lzx2005/lzx2005.github.io.git
   branch: master
   message: "deploy"
-- type: rsync
-  host: 47.52.112.194
-  user: root
-  root: /etc/nginx/hexo/hexo
-  port: 22
-  delete: ture
-  verbose: true
-  ignore_errors: false
+# - type: rsync
+#   host: 47.52.112.194
+#   user: root
+#   root: /etc/nginx/hexo/hexo
+#   port: 22
+#   delete: ture
+#   verbose: true
+#   ignore_errors: false
