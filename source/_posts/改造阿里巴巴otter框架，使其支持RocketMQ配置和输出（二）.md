@@ -115,6 +115,4 @@ function changeform() {
 
 这样我们就可以根据下拉框自动展示需要填写的表单了：
 
-<video src="https://lzx2005.github.io/2019/05/20/改造阿里巴巴otter框架，使其支持RocketMQ配置和输出（二）/1.mov" controls="controls" style="max-width: 100%; display: block; margin-left: auto; margin-right: auto;">
-your browser does not support the video tag
-</video>
+![1](改造阿里巴巴otter框架，使其支持RocketMQ配置和输出（二）/1.gif)
