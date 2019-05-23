@@ -100,7 +100,7 @@ sh ./bin/startup.sh
 
 ### 配置Zookeeper
 
-打开manager管理后台，以管理员账号登录，点击`机器管理`-`Zookeeper管理`，点击`添加`，输入集群信息，点击保存。这部必须执行，之后部署Node需要用到。
+打开manager管理后台，以管理员账号登录，点击`机器管理`-`Zookeeper管理`，点击`添加`，输入集群信息，点击保存。这步必须执行，之后部署Node需要用到。
 
 ## 部署Node
 
@@ -110,7 +110,7 @@ sh ./bin/startup.sh
 
 点击保存，可以得到保存好的Node节点，且状态为未启动：
 
-![](/Users/apple/Projects/hexo_blog/source/_posts/改造阿里巴巴otter框架，使其支持RocketMQ配置和输出（三）/3.png)
+![](改造阿里巴巴otter框架，使其支持RocketMQ配置和输出（三）/3.png)
 
 复制`序号`列下的内容，图中为1。打开服务器后台，进入目录`node`
 
@@ -130,4 +130,3 @@ echo 1 > conf/nid
 ![](改造阿里巴巴otter框架，使其支持RocketMQ配置和输出（三）/4.png)
 
 到此为止，我们的Manager和Node已经部署完毕。
-
